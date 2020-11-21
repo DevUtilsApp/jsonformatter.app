@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# JSON Formatter/Validator
+Format and validate a JSON string without online tools. [DevUtils.app](https://devutils.app) allows you to quickly format and validate a JSON string without any internet connection. It supports various formats (2 spaces, 4 spaces, tabs) and can also minify your JSON if needed.
 
-You can use the [editor on GitHub](https://github.com/DevUtilsApp/jsonformatter.app/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <img src="https://devutils.app/assets/json-formatter-validator-dark.png" alt="DevUtils.app: JSON Formatter/Validator macOS app"/>
+  <br/>
+  <a href="https://devutils.app/#download">🚀 &nbsp; Download</a> | <a href="https://devutils.app/demo">🎬 &nbsp; Demo & Screenshots</a> | <a href="https://github.com/DevUtilsApp/DevUtils-app/tree/master/TINOBHNYWE">📝 &nbsp; View source</a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Quickly format JSON strings
+You can format your JSON strings from anywhere in your macOS (terminal, in email, web browser,...).DevUtils will inspect your clipboard content and automatically select the JSON Formatter/Validator tool if the content is a valid JSON. Activate the app by:
 
-### Markdown
+* Copy text ► Press ⌃⌥⌘Space `(Or your own customized hotkey, up to you)`
+* Copy text ► Click to icon <img src="https://devutils.app/menu-icon-light.png" alt="DevUtils.app status bar icon" width="28px" /> in the status bar
+* Select text ► Right-click ► "Inspect in DevUtils.app" `(This menu appears after you install the app)`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Input
+Enter your JSON string in the left panel of the tool. The formatted JSON will be rendered in the right panel.
 
-```markdown
-Syntax highlighted code block
+If you already have the JSON string in your clipboard, click the "Clipboard" button will automatically use the clipboard's content.
 
-# Header 1
-## Header 2
-### Header 3
+Select the format you want in the select box in the top right corner. The currently supported formats are:
 
-- Bulleted
-- List
+- 2 spaces
+- 4 spaces
+- 1 tab
+- Minified
 
-1. Numbered
-2. List
+## Output
 
-**Bold** and _Italic_ and `Code` text
+The formatted JSON string will be rendered and highlighted in the right panel.
 
-[Link](url) and ![Image](src)
-```
+If your JSON string has syntax errors, the errors will be highlighted in red background and listed at the bottom of the screen.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Click each error line to highlight the syntax error from your input.
 
-### Jekyll Themes
+<img src="https://devutils.app/assets/settings/json-formatter-syntax-error.png" alt="DevUtils.app: JSON Formatter/Validator macOS app"/>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevUtilsApp/jsonformatter.app/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Options
+When you activate the app, DevUtils will inspect your clipboard content and automatically select the JSON Formatter/Validator tool if the content is a valid JSON. You can disable this automatic feature by unticking the option in the setting panel (the gear icon).
 
-### Support or Contact
+You can also configure the tool to allow trailing commas and comments in your JSON. Some people find this useful when working with JSON and JavaScript.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img src="https://devutils.app/assets/settings/setting-json-formatter.png" alt="DevUtils.app: JSON Formatter/Validator macOS app"/>
