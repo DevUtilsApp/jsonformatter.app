@@ -4,7 +4,7 @@ Format and validate a JSON string without online tools. [DevUtils.app](https://d
 <p align="center">
   <img src="https://devutils.app/assets/json-formatter-validator-dark.png" alt="DevUtils.app: JSON Formatter/Validator macOS app"/>
   <br/>
-  <a href="https://devutils.app/#download">🚀 &nbsp; Download</a> | <a href="https://devutils.app/demo">🎬 &nbsp; Demo & Screenshots</a> | <a href="https://github.com/DevUtilsApp/DevUtils-app">📝 &nbsp; View source</a>
+  <a href="https://devutils.app/#download">🚀  Download</a> | <a href="https://devutils.app/demo">🎬  Demo & Screenshots</a> | <a href="https://github.com/DevUtilsApp/DevUtils-app">📝  View source</a>
 </p>
 
 ## Quickly format JSON strings
