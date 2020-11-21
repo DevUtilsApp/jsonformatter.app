@@ -4,14 +4,14 @@ Format and validate a JSON string without online tools. [DevUtils.app](https://d
 <p align="center">
   <img src="https://devutils.app/assets/json-formatter-validator-dark.png" alt="DevUtils.app: JSON Formatter/Validator macOS app"/>
   <br/>
-  <a href="https://devutils.app/#download">🚀 &nbsp; Download</a> | <a href="https://devutils.app/demo">🎬 &nbsp; Demo & Screenshots</a> | <a href="https://github.com/DevUtilsApp/DevUtils-app/tree/master/TINOBHNYWE">📝 &nbsp; View source</a>
+  <a href="https://devutils.app/#download">🚀 &nbsp; Download</a> | <a href="https://devutils.app/demo">🎬 &nbsp; Demo & Screenshots</a> | <a href="https://github.com/DevUtilsApp/DevUtils-app">📝 &nbsp; View source</a>
 </p>
 
 ## Quickly format JSON strings
 You can format your JSON strings from anywhere in your macOS (terminal, in email, web browser,...).DevUtils will inspect your clipboard content and automatically select the JSON Formatter/Validator tool if the content is a valid JSON. Activate the app by:
 
 * Copy text ► Press ⌃⌥⌘Space `(Or your own customized hotkey, up to you)`
-* Copy text ► Click to icon <img src="https://devutils.app/menu-icon-light.png" alt="DevUtils.app status bar icon" width="28px" /> in the status bar
+* Copy text ► Click to icon <img src="https://devutils.app/menu-icon-dark.png" alt="DevUtils.app status bar icon" width="28px" /> in the status bar
 * Select text ► Right-click ► "Inspect in DevUtils.app" `(This menu appears after you install the app)`
 
 ## Input
